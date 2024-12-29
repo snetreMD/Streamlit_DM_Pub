@@ -14,7 +14,7 @@ st.set_page_config(layout="wide")
 st.title("Hierarchical Data Viewer")
 st.caption("Display your hierarchical data with charts and graphs.")
 
-#auth.check_password()
+##auth.check_password()
 auth.check_user_and_password()
 
 def getSessionId():
